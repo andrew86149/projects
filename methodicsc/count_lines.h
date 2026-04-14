@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <unordered_map>
+#include <fstream>
+#include <algorithm>
+#include <iterator>
+#include <map>
+#include <numeric>
+#include <execution>
+#include <optional>
+//#include <algorithm>
+//#include <ranges>
+
+void funr();
+void mond();
+void greaterrun();
+void run();
+void serialex();
