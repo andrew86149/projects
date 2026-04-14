@@ -21,7 +21,7 @@ add_definitions("-std=c++20")
 #set(SRC filterex.cpp)
 #set(SRC conceptex.cpp)
 #set(SRC examples.cpp)
-set(SRC concurrencybench.cpp main.cpp)
+set(SRC createThread.cpp concurrencybench.cpp main.cpp)
 #set(SRC containers.cpp)
 #set(SRC asioserver.cpp)
 

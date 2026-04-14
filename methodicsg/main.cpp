@@ -28,44 +28,36 @@ int main(int argc, char* argv[]){
         case 1:
         std::cout << "Аргумент #1...one\n";
         runBench();
-        //run();
         break;
         case 2:
         std::cout << "Аргумент #2...two\n";
-        //spinlockrun();
+        createThread();
         break;
         case 3:
         std::cout << "Аргумент #3...three\n";
-        //mutrun();
+        threadWithoutJoin();
         break;
         case 5:
         std::cout << "Аргумент #5...five\n";
-        //threadSynchronisationAtomicFlag();
+        deadlock();
         break;
         case 6:
         std::cout << "Аргумент #6...six\n";
-        //conditionVariableRun();
+        readerWriterLock();
         break;
         case 7:
         std::cout << "Аргумент #7...seven\n";
-        //atomicConditionRun();
+        threadLocal();
         break;
         case 8:
         std::cout << "Аргумент #8...eight\n";
-        //threadSynchronisationAtomicBool();
+        conditionVariableBlock();
         break;
         case 9:
         std::cout << "Аргумент #9...nine\n";
-        //atomicSharedPtr();
-        //atomicSharedPtr();
-        //atomicSharedPtr();
-        //atomicSharedPtr();
-        //atomicSharedPtr();
         break;
         case 10:
         std::cout << "Аргумент #10...ten\n";
-        //producerConsumer();
-        //transitivity();
         break;
     default:
     std::cout << "Аргумент всё остальное... " << sel << std::endl;
